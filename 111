@@ -1,0 +1,57 @@
+@startuml
+|Tinglovchi|
+start
+:Kursga yozilish;
+:Materiallarni ko‘rish;
+:Topshiriq topshirish;
+:Test topshirish;
+:Baholarni ko‘rish;
+stop
+
+|O‘qituvchi|
+start
+:Kurs yaratish;
+:Material yuklash;
+:Test yaratish;
+:Baholash;
+:Hisobot ko‘rish;
+stop
+
+|Administrator|
+start
+:Tizimni boshqarish;
+:Foydalanuvchilarni tahrirlash;
+:Hisobot monitoringi;
+stop
+
+|Rahbar|
+start
+:Taʼlim dasturlarini tuzish;
+:Reja va jadval yaratish;
+:O‘qituvchilarni belgilash;
+:Kurslarni boshqarish;
+stop
+
+|Metodist|
+start
+:Kurs tashkil etish;
+:Tinglovchi va klassifikator kiritish;
+:Elektron resurs kiritish;
+:Resurslarni qayta ishlash;
+stop
+
+|Kutubxonachi|
+start
+:Nashrlar katalogini yaratish;
+:Katalogni boshqarish;
+stop
+
+|Barcha foydalanuvchilar|
+start
+:Kurslar ro‘yxatini ko‘rish;
+:Yangiliklar bilan tanishish;
+:FAQ ko‘rish;
+:Statistikani ko‘rish;
+:Forum/Chat;
+stop
+@enduml
